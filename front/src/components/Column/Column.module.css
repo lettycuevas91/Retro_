@@ -1,0 +1,67 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    min-height: 100%;
+    background-color: #f6f7eb;
+    padding: 10px;
+  }
+  
+  .column-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  .column-header h2 {
+    margin-bottom: 10px;
+  }
+  
+  .addButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .addButton:hover {
+    background-color: rgb(100, 100, 100);
+  }
+  
+  .colorPicker-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .colorPicker {
+    position: relative;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+  }
+  
+  .colorPickerBlock {
+    position: absolute;
+    top: 55px;
+    left: -65px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+    .column-header {
+      font-size: 0.8em;
+    }
+    .colorPickerBlock {
+      left: -120px;
+    }
+  }

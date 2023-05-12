@@ -1,0 +1,10 @@
+.comment {
+    border-bottom: 1px solid white;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment span {
+    cursor: pointer;
+  }

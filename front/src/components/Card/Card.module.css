@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    background-color: rgb(75, 75, 75);
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .card span {
+    color: white;
+    font-size: 1em;
+    margin: 2px;
+  }
+  
+  .card p {
+    color: rgb(148, 148, 148);
+    flex-grow: 1;
+    max-width: 100%;
+    word-break: break-word;
+  }
+  
+  .card-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .cardButtons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .cardButtons-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .cardButton {
+    cursor: pointer !important;
+  }
+  
+  .liked {
+    padding: 1px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+  
+ 
+  .input-card form textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    resize: none;
+  }
+  
+  .comments-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardButtons-container {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }

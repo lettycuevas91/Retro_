@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  
+  h1{
+font-size: 'Verdana';
+  }
+  @media screen and (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+  }
